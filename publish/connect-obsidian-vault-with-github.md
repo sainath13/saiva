@@ -28,3 +28,9 @@ https://ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX@github.com/ithinkwong/linked-bl
 8. Restart Obsidian
 9. Make edits to your notes
 10. Publish your notes run the command "Obsidian Git: Create backup" by opening the command palette (CMD/Ctrl + P)
+
+
+
+
+
+osdnzksndklsf
