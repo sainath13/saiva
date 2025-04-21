@@ -28,3 +28,7 @@ Video: https://www.youtube.com/watch?v=rKSpK1dXn4E
 Optionally, you can:
 - [[connect-obsidian-vault-with-github|Publish Notes within your Obsidian Vault]] by installing the Obsidian Git plugin
 - [[update-publish-settings-github-actions|Update the publish settings]] to publish your notes to a [[deploy-a-custom-linked-blog-starter|custom version]] of the linked-blog-starter 
+
+
+
+Hello there!! 
