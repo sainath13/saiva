@@ -1,0 +1,1 @@
+![[opportunity-cost-definition.png.webp]]
