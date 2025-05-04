@@ -24,6 +24,11 @@ for (int n: nums) {
 for(int n : map.keySet()){
 }
 
+
+
+Map<String, List> map = new HashMap<String,List>();
+List<List<String>> listOfListOfStr = new ArrayList(map.values());
+
 ```
 
 

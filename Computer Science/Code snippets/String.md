@@ -1,10 +1,10 @@
 
 ```java
 
-public static String sortString(String inputString){
-	char tempArray[] = inputString.toCharArray();
-	Arrays.sort(tempArray);
-	return new String(tempArray);
+public static String sortString(String s){
+	char c[] = s.toCharArray();
+	Arrays.sort(c);
+	return new String(c);
 }
 
 ```
