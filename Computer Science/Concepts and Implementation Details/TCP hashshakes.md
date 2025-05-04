@@ -43,4 +43,4 @@ When a TCP connection is closed, it typically involves **4 steps**, but in conce
 |Teardown Step 3|Server → Client|FIN|Server wants to close connection|
 |Teardown Step 4|Client → Server|ACK|Acknowledge server’s FIN|
 
-Would you like a simple diagram to visualize these steps?
+![[ChatGPT Image May 4, 2025, 05_05_12 PM.png]]
