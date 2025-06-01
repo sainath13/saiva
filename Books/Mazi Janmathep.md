@@ -17,4 +17,4 @@ He surely was a dangerous man. I mean look at what he could achieve inside the j
 
 I should make this habit of taking notes while reading the book itself.
 That way the listening become more of an active activity than a passive leisurely activity. I guess thats true. Lets try that more going forward.
-
+To record an audio here to be honest, is it really working? Yeah, I think it’s working. This absolutely is a very good feature, and I actually am liking it very nice.
