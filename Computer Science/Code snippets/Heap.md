@@ -38,3 +38,43 @@ When you call the `poll()` method on a `PriorityQueue` in Java, it removes and r
 ```java
 (n1, n2) -> map.get(n2) - map.get(n1).   ===> Max HEAP
 ```
+
+So the question is not whether you need min heap or max heap. Simply the question is 
+### Which value you want when you call poll?
+Should it be max?? -> max heap
+Should it be min ?? -> min heap
+
+
+```java
+class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+       if(nums.length == k){
+            return nums;
+       }
+       //build count map
+       Map<Integer,Integer> map = new HashMap<>();
+       for(int num : nums){
+        map.put(num, map.getOrDefault(num,0)+1);
+       } 
+
+       //build a heap based on the counts;
+		//Here we wanted to pop min values from the heap since we do not need them
+		//thus this is a min heap. Which just keeps (max freq or whatever) values
+		
+        PriorityQueue<Integer> heap = new PriorityQueue<>((n1,n2) -> map.get(n1) - map.get(n2));
+        for(int n : map.keySet()){
+            heap.add(n);
+            if(heap.size() > k) heap.poll();
+        }
+
+        int[] top = new int[k];
+        int i = 0;
+        while(!heap.isEmpty()){
+            top[i] = heap.poll();
+            i++;
+        }
+        return top;  
+    }
+}
+```
+```
