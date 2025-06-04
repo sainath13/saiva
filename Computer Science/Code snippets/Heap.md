@@ -18,6 +18,7 @@ map.put(3, 8);
 ```
 
 Then the priority queue will order the integers like this:
+
 - 2 (because `map.get(2) = 3` is the smallest value),
 - 1 (because `map.get(1) = 5`),
 - 3 (because `map.get(3) = 8`).
