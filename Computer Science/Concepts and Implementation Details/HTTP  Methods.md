@@ -4,13 +4,13 @@ HTTP methods are part of the Hypertext Transfer Protocol used to communicate bet
     - **Purpose** : Retrieve data from the server.
     - **Use Case** : Used when requesting information, such as when a user visits a webpage or when an API client fetches data.
 2. **POST** :
-    - **Purpose** : Send data to the server to create a new resource.
+    - **Purpose** : Send data to the server to `create` a new resource.
     - **Use Case** : Used for submitting forms, uploading files, or creating new entries in a database (e.g., creating a new user account).
 3. **PUT** :
     - **Purpose** : Update an existing resource or create a new resource if it doesn't exist.
-    - **Use Case** : Used for updating resource information entirely, such as modifying user profile information.
+    - **Use Case** : Used for updating resource information `entirely`, such as modifying user profile information.
 4. **PATCH** :
-    - **Purpose** : Partially update an existing resource.
+    - **Purpose** : `Partially` update an existing resource.
     - **Use Case** : Used when only certain fields of a resource need modification (e.g., updating just the email address of a user).
 5. **DELETE** :
     - **Purpose** : Remove a resource from the server.
