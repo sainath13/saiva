@@ -159,3 +159,50 @@ static List<Integer> postOrder(Node root) {
     }
 
 ```
+
+
+## Level order traversal 
+#### iterative Level Order Traversal
+```java
+public List<List<Integer>> levelOrder(TreeNode root) {
+        List<TreeNode> list = new LinkedList<>();
+        List<List<Integer>> levels = new LinkedList<>();
+        if(root == null) { return levels;}
+        list.add(root);
+        while(!list.isEmpty()){
+            int size = list.size();
+            List<Integer> level = new LinkedList<>();
+            for(int i = 0; i < size; i++) {
+                TreeNode curr = list.remove(0);
+                if(curr.left != null){
+                    list.add(curr.left);
+                }
+                if(curr.right != null){
+                    list.add(curr.right);
+                }
+                level.add(curr.val);
+            }
+            levels.add(level);
+        }
+        return levels;
+    }
+```
+
+#### Recursive Level Order Traversal
+```java
+public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> ans = new ArrayList<>();
+        helper(root, ans, 0);
+        return ans;
+    }
+    void helper(TreeNode node, List<List<Integer>> ans, int level){
+        if(node == null){ return;}
+        if(ans.size() == level){
+            ans.add(new ArrayList<>());
+        }
+        ans.get(level).add(node.val);
+        helper(node.left, ans, level+1);
+        helper(node.right, ans, level+1);
+    }
+}
+```
