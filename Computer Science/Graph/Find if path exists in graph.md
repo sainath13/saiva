@@ -1,3 +1,4 @@
+[[Graphs]]
 ### Depth First Search (DFS): Recursive
 
 ```java

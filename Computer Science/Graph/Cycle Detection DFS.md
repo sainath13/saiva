@@ -1,3 +1,5 @@
+[[Graphs]]
+
 ```java
 public class Solution {
     // Map each course to its prerequisites
