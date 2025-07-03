@@ -1,0 +1,1 @@
+ Backtracking is a general algorithm that incrementally builds candidates to the solutions, and abandons a candidate (_"backtrack"_) as soon as it determines that the candidate cannot possibly lead to a valid solution.

@@ -1,5 +1,5 @@
 [[Database]]
-# Difference Between Views and Materialized Views in PL/SQL | GeeksforGeeks
+# Difference Between Views and Materialized Views in PL/SQL  |  GeeksforGeeks
 Last Updated : 05 Nov, 2024
 
 In PL/SQL views play an important role in data accessibility, data manipulation, and query optimization. ****Views**** help restrict the user's data, which is not supposed to be accessed by a particular user. Views are instrumental in securing data by restricting the visibility of specific fields or rows based on user permissions.
