@@ -1,4 +1,7 @@
 by Vinayak Damodar Savarkar
+[[Book]]
+
+
 
 16th Feb 2025
 There are some books, upon finishing them, you go on talking about it. One can not really stop thinking about those books upon finishing them. and then after only a few day, may be mere hours, one forgets about that book the story the characters all together
