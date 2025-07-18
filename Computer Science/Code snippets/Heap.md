@@ -38,3 +38,8 @@ When you call the `poll()` method on a `PriorityQueue` in Java, it removes and r
 ```java
 (n1, n2) -> map.get(n2) - map.get(n1).   ===> Max HEAP
 ```
+
+
+------
+So basically, (a,b) -> (a - b) This is min heap, We get min elements when we poll
+(a,b) -> (b - a) This is max heap, We get max elements when we poll

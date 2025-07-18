@@ -32,12 +32,14 @@ For stack implementation as it is more efficient in a single-threaded environmen
         System.out.println(stack.pop());
 
 One more reason to use Deque over Stack is Deque has the ability to use streams convert to list with keeping LIFO concept applied while Stack does not.
-push 1 then push 2
+-----------------------------------------------------------------------------
+if we do this : push 1 then push 2
+---------------------
 List<Integer> list1 = stack.stream().collect(Collectors.toList());
-
-Print list1 ===> 1, 2
+Print list1 ===> 1, 2 --> LIFO is not maintained
+---------------------
 List<Integer> list1 = deque.stream().collect(Collectors.toList());
-Print list1 ===> 2, 1
-
+Print list1 ===> 2, 1 --> LIFO is maintained
+----------------------------------------------------------------------------
 
 ```

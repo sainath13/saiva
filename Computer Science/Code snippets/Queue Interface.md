@@ -3,17 +3,17 @@
 
 Queue<Obj> queue = new LinkedList<Obj>();
 
- Queue<String> pq = new PriorityQueue<>();
+Queue<String> pq = new PriorityQueue<>();
 
-        pq.add("Geeks");
-        pq.add("For");
-        pq.add("Geeks");
+pq.add("Geeks");
+pq.add("For");
+pq.add("Geeks");
 
-        Iterator iterator = pq.iterator();
+Iterator iterator = pq.iterator();
 
-        while (iterator.hasNext()) {
-            System.out.print(iterator.next() + " ");
-        }
+while (iterator.hasNext()) {
+    System.out.print(iterator.next() + " ");
+}
 
 ```
 
