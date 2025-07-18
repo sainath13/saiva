@@ -24,7 +24,7 @@ A **broker**  is like a **post office** . Just like you drop a letter at the pos
 
 ---
 ### Broker vs Queue vs Stream: 
-- **Broker** : The overall system that handles message delivery.
+- **Broker** : The overall system that handles message delivery. Parent Term
 - **Queue** : A specific data structure inside a broker where messages wait to be processed (e.g., RabbitMQ).
 - **Stream** : A continuous flow of events/messages (e.g., Kafka topics).
 ---

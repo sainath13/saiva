@@ -47,5 +47,3 @@ Web applications with many reads and few writes — e.g., editing a user profile
 | Performance (low contention)  | Lower            | Higher                     |     |
 | Performance (high contention) | More stable      | Can degrade (more retries) |     |
 | Complexity                    | Lower            | Higher                     |     |
-
----
