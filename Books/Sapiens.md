@@ -4,3 +4,9 @@ Imagined reality  : Nations,
 
 LIE : There is a lion here
 
+I think I must make sure that I have some time to take notes of this book
+This book was really good
+I think I remember some of it.
+Happiness index was the last thing. It really had a lasting impact!
+
+
