@@ -55,3 +55,8 @@ Effectiveness comes from **balancing** producing desired results (**P**) with ma
 - If you work your team (or yourself) too hard to get quick results (focus only on P), you may burn out the capability (PC).
 - If you spend too much time maintaining capability without producing, you also fail to achieve results.
 The principle: **Don’t kill the goose that lays the golden eggs.**
+
+
+Very heavy book to be honest. 
+Cannot just skim through it. Yeah
+Will spend more time on it later I guess.
