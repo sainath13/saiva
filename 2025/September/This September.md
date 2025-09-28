@@ -1,1 +1,0 @@
-![[This September 2025-09-06 12.05.33.excalidraw]]
